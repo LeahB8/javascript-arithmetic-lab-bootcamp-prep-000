@@ -1,6 +1,10 @@
 var a, b
 
 function add(a, b){
+<<<<<<< HEAD
+=======
+  var add = "+";
+>>>>>>> 0ed1183cb34d3fc7dcd7da1784944e1ea61e8667
   return a + b;
 }
 
@@ -42,11 +46,23 @@ function dec(a){
 dec(a)
 
 function makeInt(a){
+<<<<<<< HEAD
   return parseInt(a, 10)
 }
 
 
 function preserveDecimal(a){
  return parseFloat(a)
+=======
+  var makeInt = "parseInt";
+  return 'a', 10
+}
+
+
+
+function preserveDecimal(a){
+ var preserveDecimal = "parseFloat";
+ return 'a';
+>>>>>>> 0ed1183cb34d3fc7dcd7da1784944e1ea61e8667
 }
 
